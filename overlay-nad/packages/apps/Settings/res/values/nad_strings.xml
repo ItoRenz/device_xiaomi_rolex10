@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Maintainer name -->
+    <string name="maintainer_name">ItoRenz</string>
+
     <!-- Device spec. -->
     <string name="battery_message">Li-Ion 3120 mAh</string>
     <string name="cpu_message">Quad-core 1.4 GHz Cortex-A53</string>
