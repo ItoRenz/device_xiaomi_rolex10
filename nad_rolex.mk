@@ -21,10 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common NAD stuff
-$(call inherit-product, vendor/nusantara/config/common.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
+
+# Nusantara Properties
+NAD_BUILD_TYPE := UNOFFICIAL
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
