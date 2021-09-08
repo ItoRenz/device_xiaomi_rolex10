@@ -42,6 +42,6 @@ TARGET_VENDOR_PRODUCT_NAME := rolex
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="rolex" \
     PRODUCT_NAME="rolex" \
-    PRIVATE_BUILD_DESC="sunfish-user 11 RQ3A.210805.001 7474147 release-keys"
+    PRIVATE_BUILD_DESC="sunfish-user 11 RQ3A.210905.001 7511028 release-keys"
 
-BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ3A.210805.001.A1/7474174:user/release-keys
+BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ3A.210905.001/7511028:user/release-keys
